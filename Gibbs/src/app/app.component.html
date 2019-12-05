@@ -1,0 +1,272 @@
+<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+ <!-- Static navbar -->
+    <nav class="navbar navbar-inverse  navbar-static-top" style="position: fixed; padding-left: 68%; margin-top: 1%; border-bottom: 0px;    opacity: 1;
+    ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Blog Name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+          </ul>
+       
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+
+
+<div class="footer-widget box-wrapper ">
+  <div class="row">
+
+
+
+
+
+
+    <div class="custom-menu-widget">
+
+      <div class="col-sm-4 col-md-6 col-lg-4 col-xs-12">
+        <div class="footer-right" style="padding-right: 82px;">
+          <h2 style="    margin-left: 58px" class="widget-title ">
+            <span>SOCIAL RADIO</span>
+          </h2>
+          <a href='https://www.linkedin.com/company/equinordic/. ' title="Linkedin" target="_blank">
+            <img style="width:2%; margin-left: 57%; " class="img-responsive widget-title " src="assets/img/linkedin.png" alt="worldmap"
+            />
+          </a>
+          <div class="social-icon pull-right social-fix">
+
+
+
+
+
+
+
+
+
+          </div>
+          <!-- //social-icon -->
+        </div>
+        <!-- //footer-right -->
+      </div>
+    </div>
+
+
+  </div>
+  <!-- //row -->
+</div>
+
+<!-- .footer-widget -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="offcanvas-wrapper hidden-lg hidden-md hidden-sm sidebar-offcanvas">
+  <div class="sidebar-nav">
+
+    <div class="sidebar-header">
+      <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas">&times;</button>
+
+      <div class="mobile-logo">
+        <a routerLink='/DashBoard' data-toggle="offcanvas">
+          <img src="assets/img/EquiNordicLogo3Common.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <!--Menu-->
+    <ul>
+      <li>
+        <a data-toggle="offcanvas" routerLink='/DashBoard'>Home</a>
+      </li>
+      <li>
+        <a>Features</a>
+        <ul>
+          <li>
+            <a data-toggle="offcanvas" routerLink='/Knowledge-Management'>FOCUS AREAS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a title="">SOTUTIONS</a>
+        <ul>
+          <li>
+            <a data-toggle="offcanvas" routerLink='/Services-Portfolio'>Retail Solutions</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a data-toggle="offcanvas" routerLink='/Team'>Retail Advisory Services</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a>PRODUCTS</a>
+        <ul>
+          <a title=""> INDUSTRY 4.0 </a>
+
+          <li>
+            <a data-toggle="offcanvas" routerLink='/rfas'>RFAS-PalletEnroll</a>
+          </li>
+          <li>
+            <a data-toggle="offcanvas" routerLink='/cmas'>CMAS-ShrinkPin</a>
+          </li>
+        </ul>
+
+        <ul>
+          <a title="">AI</a>
+
+          <li>
+            <a data-toggle="offcanvas" routerLink="/digishowroom">DigiShowroom</a>
+          </li>
+          <li>
+            <a data-toggle="offcanvas" routerLink="/interior-waves">Interior-Waves</a>
+          </li>
+        </ul>
+
+
+        <ul>
+          <a title="">IOT</a>
+          <li>
+            <a data-toggle="offcanvas" routerLink="/iotconduits">IoT Conduits </a>
+          </li>
+          <li>
+            <a data-toggle="offcanvas" routerLink="/emerfinradar">BlockSense</a>
+          </li>
+        </ul>
+      </li>
+      <!-- <li><a routerLink='/DashBoard' title="">Pages</a>
+            <ul>
+                <li><a >About Us</a></li>
+                <li><a>Left Sidebar</a></li>
+                <li><a >Full Width Page</a></li>
+                <li><a >Services</a></li>
+                <li><a >Pricing Table</a></li>
+                <li><a >Project</a></li>
+                <li><a title="Submenu" >Team Page</a></li>
+                <li><a title="Submenu" >Single Team Page</a></li>
+                <li><a title="Submenu" >FAQ Page</a></li>
+                <li><a title="Submenu" >FAQ Style 2</a></li>
+                <li><a >404 Page</a></li>
+                <li><a >Contact</a></li>
+            </ul>
+        </li> -->
+
+      <li class="active dropdown">
+        <a routerLink='/press-release'>LATEST NEWS
+          <b class=""></b>
+        </a>
+        <!-- submenu-wrapper -->
+        <div class="submenu-wrapper submenu-wrapper-topbottom">
+          <!-- /submenu-inner -->
+        </div>
+        <!-- /submenu-wrapper -->
+      </li>
+
+
+      <li>
+        <a>About US</a>
+        <ul>
+          <li>
+            <a data-toggle="offcanvas" routerLink='/About-Us'>ABOUT</a>
+          </li>
+          <!-- <li><a href="single.html">Blog Single</a></li>
+                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                <li><a href="blog-full-width.html">Blog Fullwidth</a></li> -->
+        </ul>
+      </li>
+
+      <li>
+        <a>Contact</a>
+        <ul>
+          <li>
+            <a data-toggle="offcanvas" routerLink='/contact'>Contact Area</a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- <li><a routerLink='/DashBoard'>Shortcode</a>
+            <ul>
+                <li><a >Elements</a></li>
+                <li><a >Columns</a></li>
+                <li><a >Typography</a></li>
+            </ul>
+        </li> -->
+    </ul>
+
+    <li>
+      <a title="">CLIENT AREA</a>
+      <ul>
+        <li>
+          <a data-toggle="offcanvas" routerLink='/client-area'>Team</a>
+        </li>
+      </ul>
+    </li>
+
+
+    <li>
+      <a title="">Careers </a>
+      <ul>
+        <li>
+          <a data-toggle="offcanvas" routerLink='/Contact-screen'>Careers </a>
+        </li>
+        <li>
+          <a data-toggle="offcanvas" routerLink='/Contact-screen'>Profiles </a>
+        </li>
+
+      </ul>
+    </li>
+
+
+  </div>
+</div>
