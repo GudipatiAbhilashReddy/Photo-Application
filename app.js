@@ -9,6 +9,12 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var compression = require('compression');
 
+
+
+
+
+
+
 var app = express();
 
 console.log('appplication has started...');
